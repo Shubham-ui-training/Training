@@ -1,27 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css grid</title>
     <style>
-        .container{
- display: grid;
- background-color: yellow;
- height: 56vh;
- /* grid-row-gap:2px ;
+        .container {
+            display: grid;
+            background-color: yellow;
+            height: 56vh;
+            /* grid-row-gap:2px ;
  grid-column-gap: 9px ; */
- grid-gap:  9px;
- /* grid-template-columns: 11px 32px auto ;
+            grid-gap: 9px;
+            /* grid-template-columns: 11px 32px auto ;
  grid-template-rows: 23px 22px; */
- grid-template-columns: auto auto auto auto;
+            grid-template-columns: auto auto auto auto;
         }
-        .item{
+
+        .item {
             background-color: aquamarine;
             border: 2px solid red;
         }
+
+        .imagee {
+            position: relative;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .textt {
+            position: absolute;
+            color: white;
+            top: 20px;
+        }
+
+
+        .new {
+            background-color: bisque;
+            height: 20px;
+            width: 150px;
+            border-radius: 10px;
+        }
+
+        .text {
+            background-color: red;
+            height: 20px;
+            width: 90px;
+            border-radius: 10px;
+
+        }
+
+        .sh {
+            width: 80%;
+        }
+
+        span {
+            margin: 50%;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
 
@@ -34,6 +73,7 @@
         <div class="item">7</div>
     </div>
 </body>
+
 </html>
 
 
@@ -229,6 +269,31 @@
 
         <video src="myvid.mp4">error in video</video>
 
+
+        <!-- <a href="images/product-8.png">thanku</a> -->
+        <!-- <img src="images/anna-jimenez-calaf-PLOq7Ouq0fM-unsplash.jpg" alt=""> -->
+        <!-- </a> -->
+        <div class="imagee">
+            <img src="images/anna-jimenez-calaf-PLOq7Ouq0fM-unsplash.jpg" alt="" width="200px" height="200px">
+            <div class="textt">
+                print name
+            </div>
+        </div>
+        <br>
+        <hr><br>
+
+        <div class="new">
+            <div class="text sh">
+                <span>80%</span>
+            </div>
+        </div>
 </body>
+<!-- <style>
+    .new{
+        background-color: bisque;
+        height: 20px;
+        width: 150px;
+    }
+</style> -->
 
 </html>
